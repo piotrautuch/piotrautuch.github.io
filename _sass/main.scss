@@ -41,6 +41,7 @@ body {
   margin: 0;
   display: flex;
   flex-direction: column;
+  min-height: 100vh;
 }
 
 //------------------------------------
@@ -48,9 +49,16 @@ body {
 // This class wraps a div so that it fits mobile & large screens
 .wrapper {
   padding: 0px 20px;
-  max-width: calc(800px - (40px));
+  max-width: calc(100% - (40px));
 }
 
+@media screen and (min-width: 800px){
+  .wrapper{
+    margin: 0 auto;
+    padding: 0 80px;
+    max-width: calc(100% - (80px));
+  }
+}
 
 //------------------------------------
 // * Header * //
