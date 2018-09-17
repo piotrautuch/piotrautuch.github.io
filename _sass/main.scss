@@ -1,3 +1,48 @@
-.current {
-  color: green
+// * VARIABLES * //
+@import "variables";
+
+// * DEFAULTS * //
+body, h1, h2, h3, h4, h5, p, ol, ul, figure{
+  margin: 0;
+  padding: 0;
+}
+
+article, aside, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+
+
+// * Body * //
+body {
+  font-family: monospace;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+// * Wrapper * //
+// This class wraps a div so that it fits mobile & large screens
+.wrapper {
+  padding: 0px 15px;
+  max-width: calc(800px - (30px));
+}
+
+
+// * Header * //
+.main-header {
+  color: $text-color;
+  position: relative;
+  min-height: 60px;
+  border-bottom: 1px solid black;
+  background-color: $primary-color;
+
+
+
+  nav {
+    float: right;
+    ul {
+      display: flex;
+    }
+  }
+
 }

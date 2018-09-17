@@ -1,13 +1,11 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>{{ page.title }}</title>
-  <!--  <link rel="stylesheet" href="/assets/main.css"> -->
-    <link rel="stylesheet" href="/assets/css/styles.css">
-  </head>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+  {% include head.html %}
   <body>
     {% include navigation.html %}
-    {{ content }}
+    <main>
+      {% include blog.html %}
+    </main>
+    {% include footer.html %}
   </body>
 </html>
