@@ -13,8 +13,9 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Piotr Autuch's Blog
+title: Piotr's Blog
 email: piotr.autuch@gmail.com
+author: Piotr Autuch
 description: >- # this means to ignore newlines until "baseurl:"
   Hello there! I'm Piotr and I'm a student of Management and Politics.
   For a few years now I've been learning programming.
