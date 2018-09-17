@@ -2,7 +2,9 @@
 layout: default
 ---
 <h1>{{ page.title }}</h1>
-<p>
+<p class="post-info">
   {{ page.date | date_to_string }} - {{ page.author }}</p>
 </p>
-{{ content }}
+<section class="post-content" aria-role="Content the post">
+  {{ content }}
+</section>

@@ -1,11 +1,17 @@
 // This file includes all variables for the layout
+// * FONTS * //
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Roboto|Source+Sans+Pro');
+
+
 
 // * COLOURS * //
-$primary-color: #303952;
-$secondary-color: #2B2A40;
-$support-color: #BB55FF;
-$accent: #73617F;
+$primary-color: #273238;
+$secondary-color: #173342;
+$accent-lighter: #92BBD1;
+$accent: #4493C2;
 $text-color: white;
 
 
-// * FONTS * //
+
+// * FONT VARIABLES * //
+$headline-font: 'Playfair Display',sans;
