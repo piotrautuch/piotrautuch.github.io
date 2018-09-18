@@ -27,4 +27,19 @@
     font-size: 2rem;
     color: #12AFB2;
   }
+
+  ol{
+    list-style: none;
+    margin: 5px;
+    padding-left: 15px;
+    color: #0CE8AA;
+    li::before{
+      content: ">";
+      color: #0CE8AA;
+      display: inline-block;
+      width: 1em;
+      font-weight: bold;
+    }
+  }
+
 }
