@@ -202,7 +202,7 @@ nav {
 // Footer includes short description and social media links
 footer{
   margin: 0;
-  min-height: 10rem;
+  max-height: 10rem;
   border-top: 3px dotted $light-cyan;
   opacity: 0.8;
   position: absolute;
