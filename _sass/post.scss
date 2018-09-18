@@ -1,14 +1,28 @@
 @import "variables";
 //--------------
-// This post includes styles for blog posts
+// This post includes styles for blog posts and sites
 //--------------
 
 .post-info{
   margin-top: 5px;
-  margin-bottom: 15px;
   color: grey;
 }
 
 .post-content{
   text-align: left;
+  margin: 15px 0;
+  font-size: 18px;
+  line-height: 2;
+
+  h3{
+    font-size: 24px;
+  }
+}
+
+
+
+// About
+
+#about{
+
 }
