@@ -1,13 +1,18 @@
 ---
 layout: post
-title:  "First post"
-date:   2018-09-17 13:09:54 +0200
+title:  "Humble Beginnings"
+date:   2018-09-18 22:09:54 +0200
 categories: meta jekyll
 author: piotrautuch
 ---
+
 I've never *really* blogged before, but I can definitely see the benefits. It's a good way to summarize what you've learnt, polish your writing skills, and maybe help someone who struggled as you did.
 As an aspiring coder without anyone mentoring me, I had to rely on such blogs, as well as on Stack Overflow and mere language documentation when encountering a problem. Fortunately, the Internet is full of helpful people and easily accessible resources.
 
 ***
 
-I decided to go with Jekyll and githubpages, instead of Wordpress or Blogspot. Although these platforms have some powerful advantages, they are easy to operate and establish. Jekyll is a bit more challenging, but it gives limitless customization opportunity.
+I decided to go with Jekyll and githubpages, instead of Wordpress or Blogspot. Although these platforms have some powerful advantages, they are easy to operate and establish. Jekyll is a bit more challenging, but it gives limitless customization opportunity. It actually took me more than I thought to think of a climatic and aesthetically pleasing design, and then actually implement it (I hope I succeeded!).
+
+There is still a few things to add to the blog. I'm thinking about adding a collection of categories to easily filter posts. I should also add pagination, so that only a couple of posts are shown on the main page.
+
+Hopefully I'll be able to keep track of what I've done and what I yet have to learn with this blog.

@@ -3,7 +3,7 @@
     <div class="footer-contents">
       <!--  <h2 class="footer-heading">{{ site.title }}</h2> -->
       <div class="footer-column footer-column-1">
-        <ul class="contacts">
+        <ul>
       <li class="author">{{ site.author | escape }}</li>
         {%- if site.email -%}
         <li>
@@ -11,12 +11,22 @@
             {{ site.email }}
           </a>
         {%- endif -%}
+        <li>
+          <i class="fab fa-github-square"></i><a href="https://www.github.com/piotrautuch">piotrautuch</a>
+        </li>
+        <li>
+          <i class="fab fa-linkedin"></i><a href="https://www.linkedin.com/in/piotr-autuch">Piotr Autuch</a>
+        </li>
+
+        <li>
+
+        </li>
       </div>
-      <div aria-label="Social media sites" class="footer-column footer-column-2">
-        {%- include social.html -%}
-      </div>
-      <div aria-role="Blog Description" class="footer-column footer-column-3">
+      <div  aria-role="Blog Description" class="footer-column footer-column-2">
         <p>{{ site.description | escape }}</p>
+        <small>
+          This site uses Jekyll and Font Awesome.
+        </small>
       </div>
     </div>
   </div>
