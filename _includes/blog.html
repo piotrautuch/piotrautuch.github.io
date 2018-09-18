@@ -3,9 +3,9 @@
 <ul class="post-list">
   {% for post in site.posts %}
     <li class="post">
-      <p class="post-info" aria-label="Date">{{ post.date | date_to_string }}</p>
+      <p aria-label="Date">{{ post.date | date_to_string }}</p>
       <a href="{{ post.url }}" class="post-link">
-        <h2>{{ post.title }}</h2>
+        <h2 class="article-heading">{{ post.title }}</h2>
         </a>
       <!--  <p class="excerpt">{{ post.excerpt }}</p> -->
 
