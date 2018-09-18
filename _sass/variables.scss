@@ -1,11 +1,13 @@
 // This file includes all variables for the layout
 // * FONTS * //
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display|Roboto|Source+Sans+Pro');
-
+@import url('https://fonts.googleapis.com/css?family=Teko:500,600&subset=latin-ext');
 // * NEW COLORS * //
 $dark-black: #222;
 $dark-grey: #757575;
-
+$dark-cyan: #001719;
+$light-cyan: #00B8CF;
+$super-light: #00E3FF;
 
 // * COLOURS * //
 $primary-color: #273238;
@@ -17,5 +19,5 @@ $text-color: white;
 
 
 // * FONT VARIABLES * //
-$headline-font: 'Playfair Display',sans;
+$headline-font: 'Roboto',sans;
 $font-size: 15px;
