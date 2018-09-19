@@ -4,7 +4,6 @@
 
 // * DEFAULTS * //
 html{
-  box-sizing: border-box;
   height: 100%;
 }
 
@@ -40,15 +39,14 @@ small{
 //------------------------------------
 // * Body * //
 body {
-  position: relative;
+//  position: relative;
   font-family: 'Roboto',sans-serif;
   margin: 0;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background-color: $dark-cyan;
+  background-color: $bg;
   font-size: $font-size;
-  padding-bottom:8rem;
 }
 
 //------------------------------------
@@ -126,6 +124,7 @@ nav {
 }
 
 .main-header {
+  order: 0;
   width: 100%;
   display: inline-flex;
   h1 {
@@ -155,7 +154,10 @@ nav {
 //------------------------------------
 // * Blog * //
 // List of all Posts
-
+main{
+  flex: 1 0 auto;
+  padding: 20px;
+}
 .article-heading{
   font-size: 2rem;
 }
@@ -206,14 +208,11 @@ nav {
 // * Footer * //
 // Footer includes short description and social media links
 footer{
-  margin: 15px 0;
-  max-height: 8rem;
+  background-color: $dark-cyan;
+  margin-top: 15px;
+  flex-shrink: 0;
   border-top: 3px dotted $light-cyan;
   opacity: 0.8;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
   color: #fdfdfd;
 
   a{
@@ -269,14 +268,12 @@ footer{
 @media screen and (min-width: 800px){
   body{
     font-size: 16px;
-    padding-bottom: 3rem;
   }
 
 }
 @media screen and (min-width: 1040px){
   body{
     font-size: 18px;
-    padding-bottom: 5rem;
   }
   nav{
     a {
