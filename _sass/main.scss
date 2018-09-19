@@ -126,19 +126,20 @@ nav {
 }
 
 .main-header {
-
   width: 100%;
   display: inline-flex;
   h1 {
+    text-align: center;
     word-wrap: break-word;
+    text-transform: lowercase;
     color: white;
     font-size: 2rem;
-    font-family: 'Roboto', sans-serif;
-    padding: 5px 8px 2px 8px;
+    font-family: 'Hanuman',sans-serif;
+    padding: 5px 8px;
     margin: 10px 0;
     font-weight: bold;
     border: 5px solid $light-cyan;
-    letter-spacing: 10px;
+    letter-spacing: 1px;
     transition: color 0.3s ease-in;
 
     &:hover{
@@ -167,7 +168,7 @@ nav {
 .container {
   box-sizing: border-box;
   color: $secondary-color;
-  padding: 50px 0;
+  padding-top: 15px;
 }
 
 
