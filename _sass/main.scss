@@ -204,6 +204,31 @@ main{
 
 }
 
+
+//------------------------------------
+// * Paginator * //
+//------------------------------------
+
+.paginator{
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  a,span{
+    padding: 0 10px;
+  }
+}
+.previous,.next{
+  color: cyan;
+}
+
+.page_number{
+  color: $dark-grey;
+}
+
+
+
+
+
 //------------------------------------
 // * Footer * //
 // Footer includes short description and social media links
