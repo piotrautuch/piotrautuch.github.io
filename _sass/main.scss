@@ -131,16 +131,20 @@ nav {
   display: inline-flex;
   h1 {
     word-wrap: break-word;
-    color: cyan;
+    color: white;
     font-size: 2rem;
     font-family: 'Roboto', sans-serif;
     padding: 5px 8px 2px 8px;
     margin: 10px 0;
     font-weight: bold;
-    border: 5px solid cyan;
+    border: 5px solid $light-cyan;
     letter-spacing: 10px;
-  //  border-bottom: 6px solid white;
+    transition: color 0.3s ease-in;
 
+    &:hover{
+      color: cyan;
+      border: 5px solid cyan;
+    }
   }
 
 }
@@ -201,8 +205,8 @@ nav {
 // * Footer * //
 // Footer includes short description and social media links
 footer{
-  margin: 0;
-  max-height: 10rem;
+  margin: 15px 0;
+  max-height: 8rem;
   border-top: 3px dotted $light-cyan;
   opacity: 0.8;
   position: absolute;
@@ -264,12 +268,14 @@ footer{
 @media screen and (min-width: 800px){
   body{
     font-size: 16px;
+    padding-bottom: 3rem;
   }
 
 }
 @media screen and (min-width: 1040px){
   body{
     font-size: 18px;
+    padding-bottom: 5rem;
   }
   nav{
     a {

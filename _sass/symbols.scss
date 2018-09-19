@@ -1,0 +1,17 @@
+@import "variables";
+
+.diamond{
+  box-sizing: border-box;
+  width: 40px;
+  background-color: black;
+  border: 10px solid $light-cyan;
+  transform-origin: center;
+
+
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+
+}
