@@ -14,7 +14,7 @@ As an aspiring coder without anyone mentoring me, I had to rely on such blogs, a
 I decided to go with Jekyll and githubpages, instead of Wordpress or Blogspot. Although these platforms have some powerful advantages, they are easy to operate and establish. Jekyll is a bit more challenging, but it gives limitless customization opportunity. It actually took me more than I thought to think of a climatic and aesthetically pleasing design, and then actually implement it (I hope I succeeded!).
 
 There is still a few things to add to the blog.
-1. Add pagination to make navigation easier.
+1. Add pagination to make navigation easier. [Update 20/09/18 - Added]
 2. Add categories, so related articles can be found quickly.
 3. Custom 404 page with some neat effects.
 4. Experiment with CSS to add some life to the page.
